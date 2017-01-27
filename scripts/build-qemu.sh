@@ -49,22 +49,24 @@ APP_NAME="QEMU"
 APP_UC_NAME="QEMU"
 APP_LC_NAME="qemu"
 
+WORK_FOLDER=${WORK_FOLDER:-"$HOME/Development/MSc_thesis/gnuarm-qemu"}
+
 # On Parallels virtual machines, prefer host Work folder.
 # Second choice are Work folders on secondary disks.
 # Final choice is a Work folder in HOME.
-if [ -d /media/psf/Home/Work ]
-then
-  WORK_FOLDER_PATH=${WORK_FOLDER_PATH:-"/media/psf/Home/Work/${APP_LC_NAME}"}
-elif [ -d /media/${USER}/Work ]
-then
-  WORK_FOLDER_PATH=${WORK_FOLDER_PATH:-"/media/${USER}/Work/${APP_LC_NAME}"}
-elif [ -d /media/Work ]
-then
-  WORK_FOLDER_PATH=${WORK_FOLDER_PATH:-"/media/Work/${APP_LC_NAME}"}
-else
-  # Final choice, a Work folder in HOME.
-  WORK_FOLDER_PATH=${WORK_FOLDER_PATH:-"${HOME}/Work/${APP_LC_NAME}"}
-fi
+#if [ -d /media/psf/Home/Work ]
+#then
+#  WORK_FOLDER=${WORK_FOLDER:-"/media/psf/Home/Work/${APP_LC_NAME}"}
+#elif [ -d /media/${USER}/Work ]
+#then
+#  WORK_FOLDER=${WORK_FOLDER:-"/media/${USER}/Work/${APP_LC_NAME}"}
+#elif [ -d /media/Work ]
+#then
+#  WORK_FOLDER=${WORK_FOLDER:-"/media/Work/${APP_LC_NAME}"}
+#else
+#  # Final choice, a Work folder in HOME.
+#  WORK_FOLDER=${WORK_FOLDER:-"${HOME}/Work/${APP_LC_NAME}"}
+#fi
 
 BUILD_FOLDER_PATH="${WORK_FOLDER_PATH}/build"
 
@@ -623,7 +625,20 @@ do_host_get_git_head
 # Use the UTC date as version in the name of the distribution file.
 do_host_get_current_date
 
+<<<<<<< HEAD
 # ----- Get QEMU. -----
+=======
+  if [ "${USER}" == "jasper" ]
+  then
+    # Shortcut for jasper, who has full access to the fork.
+    echo
+    echo "If asked, enter ${USER} GitHub password for git clone"
+    git clone ssh://github.com/jdijt/qemu.git gnuarmeclipse-${APP_LC_NAME}.git
+  else
+    # For regular read/only access, use the http url.
+    git clone http://github.com/jdijt/qemu.git gnuarmeclipse-${APP_LC_NAME}.git
+  fi
+>>>>>>> Minor folder tweaks to work for my case.
 
 if [ ! -d "${WORK_FOLDER_PATH}/${QEMU_FOLDER_NAME}" ]
 then
