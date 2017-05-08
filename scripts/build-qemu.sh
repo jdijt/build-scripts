@@ -49,7 +49,7 @@ APP_NAME="QEMU"
 APP_UC_NAME="QEMU"
 APP_LC_NAME="qemu"
 
-WORK_FOLDER=${WORK_FOLDER:-"$HOME/Development/MSc_thesis/gnuarm-qemu"}
+WORK_FOLDER=${WORK_FOLDER:-"$HOME/Development/MSc_thesis/gnuarm-qemu/${APP_LC_NAME}"}
 
 # On Parallels virtual machines, prefer host Work folder.
 # Second choice are Work folders on secondary disks.
@@ -633,7 +633,7 @@ do_host_get_current_date
     # Shortcut for jasper, who has full access to the fork.
     echo
     echo "If asked, enter ${USER} GitHub password for git clone"
-    git clone ssh://github.com/jdijt/qemu.git gnuarmeclipse-${APP_LC_NAME}.git
+    git clone git@github.com:jdijt/qemu.git gnuarmeclipse-${APP_LC_NAME}.git
   else
     # For regular read/only access, use the http url.
     git clone http://github.com/jdijt/qemu.git gnuarmeclipse-${APP_LC_NAME}.git
@@ -2214,7 +2214,9 @@ then
       --bindir="${install_folder}/${APP_LC_NAME}/bin" \
       --docdir="${install_folder}/${APP_LC_NAME}/doc" \
       --mandir="${install_folder}/${APP_LC_NAME}/man" \
-      \
+      --enable-debug --disable-pie \
+      --enable-nrf-state-logging \
+      --enable-trace-backends=simple \
       --with-sdlabi="${LIBSDL_ABI}" \
     | tee "${output_folder_path}/configure-output.txt"
 
