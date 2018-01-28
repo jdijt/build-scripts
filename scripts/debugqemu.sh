@@ -32,9 +32,8 @@ fi
 #rr record ${QEMU} -mcu NRF51822 -board generic \
 ${QEMU} --board Itude-NRF51822 \
     --image ${QEMU_IMG} \
-    --verbose --verbose \
+    --nographic\
     -icount auto\
-    -d guest_errors\
     -trace events=traceevents \
 
 

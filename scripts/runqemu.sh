@@ -1,7 +1,7 @@
 #!/usr/bin/env zsh
 
 QEMU_IMG=`realpath $1`
-OUTPUT=$HOME/Development/MSc_thesis/gnuarm-qemu/qemu/output
+OUTPUT=$HOME/thesis/MSc_thesis/gnuarm-qemu/qemu/output
 QEMU=$OUTPUT/qemu/bin/qemu-system-gnuarmeclipse
 
 unset -v latest

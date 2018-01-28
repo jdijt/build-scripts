@@ -49,7 +49,7 @@ APP_NAME="QEMU"
 APP_UC_NAME="QEMU"
 APP_LC_NAME="qemu"
 
-WORK_FOLDER=${WORK_FOLDER:-"$HOME/Development/MSc_thesis/gnuarm-qemu/${APP_LC_NAME}"}
+WORK_FOLDER=${WORK_FOLDER:-"$HOME/Thesis/MSc_thesis/gnuarm-qemu/${APP_LC_NAME}"}
 
 # On Parallels virtual machines, prefer host Work folder.
 # Second choice are Work folders on secondary disks.
