@@ -1,0 +1,475 @@
+000237ac T abort
+0001cdaa W ADC_IRQHandler
+0001f0f8 T __aeabi_cdcmpeq
+0001f0f8 T __aeabi_cdcmple
+0001f0e8 T __aeabi_cdrcmple
+00020074 T __aeabi_d2iz
+000213b0 T __aeabi_dadd
+0001f108 T __aeabi_dcmpeq
+0001f150 T __aeabi_dcmpge
+0001f13c T __aeabi_dcmpgt
+0001f128 T __aeabi_dcmple
+0001f114 T __aeabi_dcmplt
+00022664 T __aeabi_dcmpun
+000219d0 T __aeabi_ddiv
+0001fb74 T __aeabi_dmul
+00022038 T __aeabi_dsub
+0001f378 T __aeabi_fdiv
+0001f608 T __aeabi_fmul
+000226a4 T __aeabi_i2d
+0001f848 T __aeabi_i2f
+0001ef10 T __aeabi_idiv
+0001f0e4 W __aeabi_idiv0
+0001f0dc T __aeabi_idivmod
+0001f0e4 W __aeabi_ldiv0
+0001f1a4 T __aeabi_lmul
+00022728 T __aeabi_ui2d
+0001f8e8 T __aeabi_ui2f
+0001edfc T __aeabi_uidiv
+0001ef08 T __aeabi_uidivmod
+0001f164 T __aeabi_uldivmod
+000237ba T __ascii_mbtowc
+00023a7c T __ascii_wctomb
+00023b9c T _Balloc
+00023c0c T _Bfree
+20002dec B __bss_end__
+200029f8 B __bss_start__
+0001cdaa W CCM_AAR_IRQHandler
+20002db9 b channel_enabled
+20002a84 b channel_ids
+0001d448 T checkError
+00020118 T __clzdi2
+000200dc T __clzsi2
+200029f8 b completed.8643
+0001ccd8 T core_util_critical_section_enter
+0001cd2c T core_util_critical_section_exit
+0002351e T core_util_runtime_error_internal
+000245c5 T _ctype_
+00023800 T __cvt
+00021308 T __d2b
+200029f8 D __data_end__
+20002800 D __data_start__
+20002a4c B debugLed
+0001cdaa T Default_Handler
+0001ef10 T __divsi3
+0001ef10 t .divsi3_skip_div0_test
+00023734 T dlcalloc
+0001e738 T dlfree
+0001d95c T dlmalloc
+0001c0c0 t __do_global_dtors_aux
+200029f4 d __do_global_dtors_aux_fini_array_entry
+0002067c T _dtoa_r
+0001cdaa W ECB_IRQHandler
+000246f0 t __EH_FRAME_BEGIN__
+20002dec B end
+20002dec B __end__
+20002a7c b _entry_count
+0001f974 T __eqdf2
+20002de8 B errno
+00020130 T __errno
+00022ff0 W error
+000246fc R __etext
+20002b18 b events
+000246fc R __exidx_end
+000246f4 T __exidx_start
+00022fe4 T exit
+00022f54 T _exit
+000238c8 T __exponent
+00024050 T _fini
+0001c0e8 t frame_dummy
+200029dc d __frame_dummy_init_array_entry
+000246f0 t __FRAME_END__
+00020198 T free
+0001f9e8 T __gedf2
+00022f68 T _getpid
+00023a66 T _getpid_r
+20002864 D __global_locale
+0001c5f8 t _GLOBAL__sub_I_debugLed
+0001ed6c t _GLOBAL__sub_I__ZNSt12ctype_bynameIcEC2ERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEj
+0001eb80 t _GLOBAL__sub_I__ZNSt12ctype_bynameIcEC2ERKSsj
+0001ecf0 t _GLOBAL__sub_I__ZNSt12ctype_bynameIwEC2ERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEj
+0001ec38 t _GLOBAL__sub_I__ZNSt12ctype_bynameIwEC2ERKSsj
+20002b24 b _gm_
+0001ede8 T __gnu_thumb1_case_uqi
+0002353c T gpio_dir
+0001d208 T gpio_init
+00022f6c t _gpio_init_in
+00022fb4 T gpio_init_in
+00022fda T gpio_init_out
+00022fbe T gpio_init_out_ex
+00022f8e t _gpio_init_out.part.1
+0001cf00 T gpio_irq_free
+0001cea0 T gpio_irq_init
+0001cf10 T gpio_irq_set
+00023530 T gpio_mode
+0001cdac T GPIOTE_IRQHandler
+0001f9e8 T __gtdf2
+0001cda2 W HardFault_Handler
+00004a14 A __heap_size
+00023cb6 T __hi0bits
+00023d48 T __i2b
+20002dda B i2c0_spi0_peripheral
+20002dde B i2c1_spi1_peripheral
+0001d260 T i2c_do_read
+0001d238 T i2c_do_write
+0001d29c T i2c_frequency
+0001d328 T i2c_init
+00023566 T i2c_read
+0001d3e4 T i2c_reset
+00023558 T i2c_start
+0001d414 T i2c_stop
+000235ea T i2c_write
+20002804 d impure_data
+20002800 D _impure_ptr
+00024044 T _init
+200029f4 d __init_array_end
+200029dc d __init_array_start
+0001d8b8 t init_mparams
+0001d900 t init_top.constprop.16
+20002b00 b irq_handler
+20002b10 b irq_handler
+200029f8 d __JCR_LIST__
+00022f58 T _kill
+00020658 T _kill_r
+0001fab0 T __ledf2
+0002013c T __libc_init_array
+00023cea T __lo0bits
+0002124c T _localeconv_r
+0001cdaa W LPCOMP_IRQHandler
+0001d7f0 T lp_ticker_get_compare_match
+00023724 T lp_ticker_init
+0002372c T lp_ticker_read
+0001d800 T lp_ticker_sleep_until
+00023e78 T __lshift
+0001fab0 T __ltdf2
+0001c8f4 T main
+0001c120 T _mainCRTStartup
+00020184 T malloc
+00022ffa W mbed_die
+0001d7a0 T mbed_enter_sleep
+00023722 T mbed_exit_sleep
+000236d4 T mbed_hal_init
+00024014 T mbed_krbs
+00022820 T mbed_krbs_ex
+200029d0 D mbed_krbs_ptr
+20007800 B __mbed_krbs_start
+00022798 T mbed_sbrk
+200029d4 D mbed_sbrk_diff
+200029d8 D mbed_sbrk_ptr
+20002dec B __mbed_sbrk_start
+0001d82c T mbed_ualloc
+0001d888 T mbed_ufree
+00023f1a T __mcmp
+00023f4c T __mdiff
+000237de T memcpy
+000237f0 T memset
+20002cfc b mparams
+00024060 T __mprec_bigtens
+00024088 T __mprec_tens
+0001f1a4 T __muldi3
+00023c3e T __multadd
+00023d5a T __multiply
+0001f974 T __nedf2
+0001cda0 W NMI_Handler
+40000524 a NRF_POWER_RAMON_ADDRESS
+00000003 a NRF_POWER_RAMON_RAMxON_ONMODE_Msk
+200029fc b object.8648
+20002de4 B overflowCount
+00024330 t p05.6052
+0001cda6 W PendSV_Handler
+0002364a T pin_mode
+20002b04 b portFALL
+20002b08 b portRISE
+00021264 T __pow5mult
+0001cdaa W POWER_CLOCK_IRQHandler
+200029dc d __preinit_array_end
+200029dc d __preinit_array_start
+20002b20 b prevent_tracing
+00023938 T _printf_common
+000201ac W _printf_float
+0001cdaa W QDEC_IRQHandler
+00023a94 t quorem
+0001cdaa W RADIO_IRQHandler
+00020644 T raise
+00023a12 T _raise_r
+0001cd64 T Reset_Handler
+0001cdaa W RNG_IRQHandler
+0001cdaa W RTC0_IRQHandler
+00023528 T rtc1_getCounter
+0001cfb0 t rtc1_getCounter64
+0001cfec T RTC1_IRQHandler
+0002371a t sd_app_evt_wait
+00023338 t sd_nvic_critical_region_enter
+0002333c t sd_nvic_critical_region_exit
+00023340 t sd_softdevice_is_enabled
+0002371e t sd_softdevice_is_enabled
+0001d938 t segment_holding.constprop.18
+20002b14 b serial_irq_ids
+000242d0 T __sf_fake_stderr
+000242f0 T __sf_fake_stdin
+00024310 T __sf_fake_stdout
+0001cdaa W SPI0_TWI0_IRQHandler
+0001cdaa W SPI1_TWI1_IRQHandler
+0001d4bc T spi_format
+0001d51c T spi_frequency
+0001d5a0 T spi_init
+0001d6bc T spi_master_write
+20008000 A __stack
+20007800 A __StackLimit
+20008000 B __StackTop
+0001c120 T _start
+20002a80 b _state
+00023a6e T strlen
+0001cda4 W SVC_Handler
+0001cdaa W SWI0_IRQHandler
+0001cdaa W SWI1_IRQHandler
+0001cdaa W SWI2_IRQHandler
+0001cdaa W SWI3_IRQHandler
+0001cdaa W SWI4_IRQHandler
+0001cdaa W SWI5_IRQHandler
+0001d6f4 T SystemInit
+0001cda8 W SysTick_Handler
+0001cdaa W TEMP_IRQHandler
+000236d6 T ticker_irq_handler
+0001cdaa W TIMER0_IRQHandler
+0001cdaa W TIMER1_IRQHandler
+0001cdaa W TIMER2_IRQHandler
+0001d2e4 T twi_master_init
+0001d470 T UART0_IRQHandler
+0001f1f8 T __udivmoddi4
+0001edfc T __udivsi3
+0001edfc t .udivsi3_skip_div0_test
+000241b4 t us_data
+20002db8 b _use_softdevice_routine
+000241bc t us_interface
+20002dd8 b us_ticker_callbackPending
+20002b0c b us_ticker_callbackTimestamp
+0001d1f8 T us_ticker_clear_interrupt
+0001d1d0 T us_ticker_disable_interrupt
+0001d070 T us_ticker_init
+20002dd9 b us_ticker_inited
+0001d6e4 T us_ticker_irq_handler
+0001d0e8 T us_ticker_read
+0001d114 T us_ticker_set_interrupt
+0001c000 T __Vectors
+00022ec6 T wait_ms
+00022eb0 T wait_us
+0001cdaa W WDT_IRQHandler
+0002402a T __wrap__calloc_r
+00024038 T __wrap__free_r
+00022f48 T __wrap_main
+0002401e T __wrap__malloc_r
+0001c4f8 T app_start(int, char**)
+0002379e T operator delete(void*)
+20002d44 V guard variable for std::moneypunct<char, false>::id
+20002d40 V guard variable for std::moneypunct<char, true>::id
+20002d74 V guard variable for std::moneypunct<wchar_t, false>::id
+20002d70 V guard variable for std::moneypunct<wchar_t, true>::id
+20002d28 V guard variable for std::__timepunct<char>::id
+20002d58 V guard variable for std::__timepunct<wchar_t>::id
+20002d18 V guard variable for std::collate<char>::id
+20002d48 V guard variable for std::collate<wchar_t>::id
+20002db4 V guard variable for std::__cxx11::moneypunct<char, false>::id
+20002db0 V guard variable for std::__cxx11::moneypunct<char, true>::id
+20002d94 V guard variable for std::__cxx11::moneypunct<wchar_t, false>::id
+20002d90 V guard variable for std::__cxx11::moneypunct<wchar_t, true>::id
+20002d98 V guard variable for std::__cxx11::collate<char>::id
+20002d78 V guard variable for std::__cxx11::collate<wchar_t>::id
+20002d9c V guard variable for std::__cxx11::messages<char>::id
+20002d7c V guard variable for std::__cxx11::messages<wchar_t>::id
+20002da4 V guard variable for std::__cxx11::numpunct<char>::id
+20002d84 V guard variable for std::__cxx11::numpunct<wchar_t>::id
+20002da0 V guard variable for std::__cxx11::time_get<char, std::istreambuf_iterator<char, std::char_traits<char> > >::id
+20002d80 V guard variable for std::__cxx11::time_get<wchar_t, std::istreambuf_iterator<wchar_t, std::char_traits<wchar_t> > >::id
+20002dac V guard variable for std::__cxx11::money_get<char, std::istreambuf_iterator<char, std::char_traits<char> > >::id
+20002d8c V guard variable for std::__cxx11::money_get<wchar_t, std::istreambuf_iterator<wchar_t, std::char_traits<wchar_t> > >::id
+20002da8 V guard variable for std::__cxx11::money_put<char, std::ostreambuf_iterator<char, std::char_traits<char> > >::id
+20002d88 V guard variable for std::__cxx11::money_put<wchar_t, std::ostreambuf_iterator<wchar_t, std::char_traits<wchar_t> > >::id
+20002d30 V guard variable for std::num_get<char, std::istreambuf_iterator<char, std::char_traits<char> > >::id
+20002d60 V guard variable for std::num_get<wchar_t, std::istreambuf_iterator<wchar_t, std::char_traits<wchar_t> > >::id
+20002d2c V guard variable for std::num_put<char, std::ostreambuf_iterator<char, std::char_traits<char> > >::id
+20002d5c V guard variable for std::num_put<wchar_t, std::ostreambuf_iterator<wchar_t, std::char_traits<wchar_t> > >::id
+20002d1c V guard variable for std::messages<char>::id
+20002d4c V guard variable for std::messages<wchar_t>::id
+20002d34 V guard variable for std::numpunct<char>::id
+20002d64 V guard variable for std::numpunct<wchar_t>::id
+20002d20 V guard variable for std::time_get<char, std::istreambuf_iterator<char, std::char_traits<char> > >::id
+20002d50 V guard variable for std::time_get<wchar_t, std::istreambuf_iterator<wchar_t, std::char_traits<wchar_t> > >::id
+20002d24 V guard variable for std::time_put<char, std::ostreambuf_iterator<char, std::char_traits<char> > >::id
+20002d54 V guard variable for std::time_put<wchar_t, std::ostreambuf_iterator<wchar_t, std::char_traits<wchar_t> > >::id
+20002d3c V guard variable for std::money_get<char, std::istreambuf_iterator<char, std::char_traits<char> > >::id
+20002d6c V guard variable for std::money_get<wchar_t, std::istreambuf_iterator<wchar_t, std::char_traits<wchar_t> > >::id
+20002d38 V guard variable for std::money_put<char, std::ostreambuf_iterator<char, std::char_traits<char> > >::id
+20002d68 V guard variable for std::money_put<wchar_t, std::ostreambuf_iterator<wchar_t, std::char_traits<wchar_t> > >::id
+20002a14 V guard variable for Board::getInstance()::instance
+20002a70 b guard variable for minar::SchedulerData::start()::Warn_Lag_Ticks
+20002a74 b guard variable for minar::SchedulerData::start()::Warn_Duration_Ticks
+0001c5bc t readTemperature()
+0001c4bc t readLight()
+00022c50 T LightSensor::setDataStale()
+00022c58 T LightSensor::interruptEvent()
+0001c370 T LightSensor::onSensorValueReady()
+0001c314 T LightSensor::dispatchSensorValueReadIfNeeded()
+00022cf8 T LightSensor::read(std::function<void (float)> const&)
+0001c274 T LightSensor::LightSensor(mbed::I2C*, PinName)
+0001c274 T LightSensor::LightSensor(mbed::I2C*, PinName)
+20002d14 b (anonymous namespace)::__new_handler
+00022dc8 T Microcontroller::acquireSerialInterfaces()
+0001c6c0 T Microcontroller::releaseSerialInterfaces()
+0001c614 T Microcontroller::Microcontroller(PinName, PinName, PinName, PinName, PinName)
+0001c614 T Microcontroller::Microcontroller(PinName, PinName, PinName, PinName, PinName)
+00022a06 T TemperatureSensor::endReading()
+000229e6 T TemperatureSensor::startReading()
+0001c548 W void TemperatureSensor::read<float>(std::function<void (float)>)
+00022d56 W void TemperatureSensor::_read<float>(std::function<void (float)>)
+000229aa T TemperatureSensor::TemperatureSensor(mbed::I2C*, PinName)
+000229aa T TemperatureSensor::TemperatureSensor(mbed::I2C*, PinName)
+00022efe T mbed::InterruptIn::_irq_handler(unsigned long, gpio_irq_event)
+0001c8c8 T mbed::InterruptIn::fall(void (*)())
+00022ee6 T mbed::InterruptIn::mode(PinMode)
+0001c854 T mbed::InterruptIn::InterruptIn(PinName)
+0001c854 T mbed::InterruptIn::InterruptIn(PinName)
+00022ed4 T mbed::InterruptIn::~InterruptIn()
+0001c83c T mbed::InterruptIn::~InterruptIn()
+0001c83c T mbed::InterruptIn::~InterruptIn()
+00022e78 T mbed::I2C::read(int, char*, int, bool)
+00022ea8 T mbed::I2C::start()
+00022e48 T mbed::I2C::write(int, char const*, int, bool)
+0001c820 T mbed::I2C::aquire()
+20002a68 B mbed::I2C::_owner
+0001c80c T mbed::I2C::frequency(int)
+0001c7dc T mbed::I2C::I2C(PinName, PinName)
+0001c7dc T mbed::I2C::I2C(PinName, PinName)
+00022e34 T mbed::SPI::write(int)
+0001c7b0 T mbed::SPI::aquire()
+20002a64 B mbed::SPI::_owner
+0001c768 T mbed::SPI::SPI(PinName, PinName, PinName)
+0001c768 T mbed::SPI::SPI(PinName, PinName, PinName)
+00022e28 W mbed::SPI::~SPI()
+00022e26 W mbed::SPI::~SPI()
+00022e26 W mbed::SPI::~SPI()
+00023126 W mbed::util::BinaryHeap<minar::CallbackNode*, minar::SchedulerData::CallbackNodeCompare>::_propagate_down(unsigned int)
+000230ce W mbed::util::BinaryHeap<minar::CallbackNode*, minar::SchedulerData::CallbackNodeCompare>::_swap(unsigned int, unsigned int)
+0002320a W mbed::util::BinaryHeap<minar::CallbackNode*, minar::SchedulerData::CallbackNodeCompare>::insert(minar::CallbackNode* const&)
+000233ba T mbed::util::PoolAllocator::get_pool_size(unsigned int, unsigned int, unsigned int)
+0002338a T mbed::util::PoolAllocator::free(void*)
+00023344 T mbed::util::PoolAllocator::alloc()
+000233d0 T mbed::util::PoolAllocator::_init()
+000233c6 T mbed::util::PoolAllocator::align_up(unsigned long, unsigned long)
+000233ee T mbed::util::PoolAllocator::PoolAllocator(void*, unsigned int, unsigned int, unsigned int)
+000233ee T mbed::util::PoolAllocator::PoolAllocator(void*, unsigned int, unsigned int, unsigned int)
+00022c5e W void mbed::util::FunctionPointer0<void>::membercaller<LightSensor>(void*, char*, void*)
+00022a1e W void mbed::util::FunctionPointer0<void>::membercaller<Button>(void*, char*, void*)
+00022d3a W mbed::util::FunctionPointer0<void>::staticcaller(void*, char*, void*)
+00022ef0 W mbed::util::FunctionPointer0<void>::call()
+00022c74 W mbed::util::FunctionPointer0<void>::~FunctionPointer0()
+00022c72 W mbed::util::FunctionPointer0<void>::~FunctionPointer0()
+00022c72 W mbed::util::FunctionPointer0<void>::~FunctionPointer0()
+00022d88 W mbed::util::FunctionPointer1<void, std::function<void (float)> >::destructor(void*)
+00022d90 W void mbed::util::FunctionPointer1<void, std::function<void (float)> >::membercaller<TemperatureSensor>(void*, char*, void*)
+00022dbc W mbed::util::FunctionPointer1<void, std::function<void (float)> >::copy_constructor(void*, void*)
+0002416c V mbed::util::FunctionPointer1<void, std::function<void (float)> >::_fp1_ops
+00022f3c W mbed::util::FunctionPointer2<void, int, char**>::destructor(void*)
+00022f3e W mbed::util::FunctionPointer2<void, int, char**>::staticcaller(void*, char*, void*)
+00022f2e W mbed::util::FunctionPointer2<void, int, char**>::copy_constructor(void*, void*)
+000241ac V mbed::util::FunctionPointer2<void, int, char**>::_fp2_ops
+00022c5a W mbed::util::FunctionPointerBase<void>::_null_copy_args(void*, void*)
+00022c5c W mbed::util::FunctionPointerBase<void>::_null_destructor(void*)
+00022c92 W mbed::util::FunctionPointerBase<void>::clear()
+00024150 V mbed::util::FunctionPointerBase<void>::_nullops
+0001c254 W mbed::util::FunctionPointerBind<void>::clear()
+0001c998 W mbed::util::FunctionPointerBind<void>::FunctionPointerBind(mbed::util::FunctionPointerBind<void> const&)
+0001c998 W mbed::util::FunctionPointerBind<void>::FunctionPointerBind(mbed::util::FunctionPointerBind<void> const&)
+00022c80 W mbed::util::FunctionPointerBind<void>::~FunctionPointerBind()
+0001c23c W mbed::util::FunctionPointerBind<void>::~FunctionPointerBind()
+0001c23c W mbed::util::FunctionPointerBind<void>::~FunctionPointerBind()
+00023416 T mbed::util::ExtendablePoolAllocator::free(void*)
+00023474 T mbed::util::ExtendablePoolAllocator::init(unsigned int, unsigned int, unsigned int, UAllocTraits, unsigned int)
+000234ae T mbed::util::ExtendablePoolAllocator::alloc()
+00023410 T mbed::util::ExtendablePoolAllocator::ExtendablePoolAllocator()
+00023410 T mbed::util::ExtendablePoolAllocator::ExtendablePoolAllocator()
+00023102 W mbed::util::Array<minar::CallbackNode*>::pop_back()
+0001c198 W Board::getInstance()
+00022ba4 T Board::Board()
+00022ba4 T Board::Board()
+0001c94c W minar::CallbackNode::get_allocator()
+000230a4 T minar::milliseconds(unsigned long)
+0001cc80 T minar::SchedulerData::postGeneric(mbed::util::FunctionPointerBind<void>, unsigned long, unsigned long, unsigned long)
+0001cb0c T minar::SchedulerData::start()
+0001ca34 T minar::SchedulerData::SchedulerData()
+0001ca34 T minar::SchedulerData::SchedulerData()
+0002368a T minar::platform::sleepFromUntil(unsigned long, unsigned long)
+0002366a T minar::platform::init()
+00023672 T minar::platform::sleep()
+00023682 T minar::platform::getTime()
+0001c474 W minar::Scheduler::postCallback(void (*)())
+0001cad8 T minar::Scheduler::postCallback(mbed::util::FunctionPointerBind<void> const&)
+0001c2c0 W minar::Scheduler::CallbackAdder minar::Scheduler::postCallback<LightSensor>(LightSensor*, void (LightSensor::*)())
+0002307e T minar::Scheduler::CallbackAdder::delay(unsigned long)
+00023086 T minar::Scheduler::CallbackAdder::period(unsigned long)
+000232d2 T minar::Scheduler::CallbackAdder::getHandle()
+00023082 T minar::Scheduler::CallbackAdder::tolerance(unsigned long)
+0001c9e8 T minar::Scheduler::CallbackAdder::CallbackAdder(minar::Scheduler&, mbed::util::FunctionPointerBind<void>)
+0001c9e8 T minar::Scheduler::CallbackAdder::CallbackAdder(minar::Scheduler&, mbed::util::FunctionPointerBind<void>)
+00023326 T minar::Scheduler::CallbackAdder::~CallbackAdder()
+00023326 T minar::Scheduler::CallbackAdder::~CallbackAdder()
+0001cc68 T minar::Scheduler::start()
+0001caa0 T minar::Scheduler::instance()
+000231f4 T minar::Scheduler::Scheduler()
+000231f4 T minar::Scheduler::Scheduler()
+20002a78 b minar::staticScheduler
+00023062 t minar::smallestTimeIncrement(unsigned long, unsigned long, unsigned long)
+00022a32 T Button::fallCallback()
+0001c1ec T Button::Button(PinName)
+0001c1ec T Button::Button(PinName)
+00022932 T TMP112::_writeConfig()
+000228d4 T TMP112::_readRegister(TMP112::Registers_t)
+00022906 T TMP112::_readRegister(TMP112::Registers_t, unsigned char*, unsigned char)
+00022992 T TMP112::getTemperature(float*)
+000228ba T TMP112::_writeRegister(TMP112::Registers_t, unsigned char)
+0001c1bc T TMP112::readTemperature()
+00022978 T TMP112::enableOneShotMeasurement()
+00022966 T TMP112::triggerOneShotMeasurement()
+0002293e T TMP112::_writeDefaultConfiguration()
+0002294a T TMP112::identify()
+0002298a T TMP112::powerOff()
+000228b0 T TMP112::TMP112(mbed::I2C*)
+000228b0 T TMP112::TMP112(mbed::I2C*)
+00022a98 T ISL29033::writeConfig()
+00022a6c T ISL29033::_readRegister(ISL29033::Registers_t, unsigned char*, unsigned char)
+00022a52 T ISL29033::_writeRegister(ISL29033::Registers_t, unsigned char)
+0001c224 T ISL29033::getLuminosityInLux()
+00022ae4 T ISL29033::writeDefaultConfig()
+00022b20 T ISL29033::getLuminosityInMilliLux()
+00022af4 T ISL29033::powerOn()
+00022b18 T ISL29033::readAdc()
+00022ad8 T ISL29033::powerOff()
+00022afc T ISL29033::readData()
+00022a44 T ISL29033::ISL29033(mbed::I2C*)
+00022a44 T ISL29033::ISL29033(mbed::I2C*)
+0001ca0c W mbed::util::BinaryHeap<minar::CallbackNode*, minar::SchedulerData::CallbackNodeCompare>::get_root() const
+00023376 T mbed::util::PoolAllocator::owns(void const*) const
+0002343c T mbed::util::ExtendablePoolAllocator::create_new_pool(unsigned int, mbed::util::ExtendablePoolAllocator::pool_link*) const
+000231cc W mbed::util::Array<minar::CallbackNode*>::create_new_array(unsigned int, unsigned int, mbed::util::Array<minar::CallbackNode*>::array_link*) const
+000230b6 W mbed::util::Array<minar::CallbackNode*>::get_element_address(unsigned int) const
+0002308a T minar::SchedulerData::CallbackNodeCompare::operator()(minar::CallbackNode* const&, minar::CallbackNode* const&) const
+00022ca4 W std::function<void (float)>::operator()(float) const
+00022cba W void std::_Destroy_aux<false>::__destroy<std::function<void (float)>*>(std::function<void (float)>*, std::function<void (float)>*)
+00022d4c t std::_Function_base::_Base_manager<readTemperature()::{lambda(float)#1}>::_M_manager(std::_Any_data&, std::_Function_base::_Base_manager<readTemperature()::{lambda(float)#1}> const&, std::_Manager_operation)
+00022d40 t std::_Function_base::_Base_manager<readLight()::{lambda(float)#1}>::_M_manager(std::_Any_data&, std::_Function_base::_Base_manager<readLight()::{lambda(float)#1}> const&, std::_Manager_operation)
+00022b90 W std::_Function_base::~_Function_base()
+00022b90 W std::_Function_base::~_Function_base()
+00022d4a t std::_Function_handler<void (float), readTemperature()::{lambda(float)#1}>::_M_invoke(std::_Any_data const&, float&&)
+00022d86 t std::_Function_handler<void (float), readLight()::{lambda(float)#1}>::_M_invoke(std::_Any_data const&, float&&)
+0001c3e4 W void std::vector<std::function<void (float)>, std::allocator<std::function<void (float)> > >::_M_emplace_back_aux<std::function<void (float)> const&>(std::function<void (float)> const&)
+00022cd8 W std::function<void (float)>::function(std::function<void (float)> const&)
+00022cd8 W std::function<void (float)>::function(std::function<void (float)> const&)
+0002377a T operator new(unsigned int)
+0001eb74 T std::get_new_handler()
+000237a6 T std::__throw_bad_function_call()
+0002419c T vtable for mbed::InterruptIn
+00024174 T vtable for mbed::SPI
+00024188 V vtable for mbed::util::FunctionPointer0<void>
+00024158 V vtable for mbed::util::FunctionPointerBind<void>
+20002a18 V Board::getInstance()::instance
+20002a6c V minar::CallbackNode::get_allocator()::allocator
